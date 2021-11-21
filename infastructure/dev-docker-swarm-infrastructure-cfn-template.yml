@@ -86,7 +86,7 @@ Resources:
               - Key: app-stack-name
                 Value: !Sub ${AWS::StackName}
               - Key: environment
-                Value: dev # dev
+                Value: dev
   DockerInstance1:
     Type: AWS::EC2::Instance
     DependsOn:
