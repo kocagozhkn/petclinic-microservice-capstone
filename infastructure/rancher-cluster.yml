@@ -3,7 +3,7 @@ nodes:
     internal_address: 172.31.69.12
     user: ubuntu
     role: [controlplane, worker, etcd]
-
+#ubuntu address public ip altındaki private
 services:
   etcd:
     snapshot: true
